@@ -206,6 +206,10 @@
 
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevrajBijpuria&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph"/>
 
+  <br/><br/>
+
+  <img width="95%" src="https://ghchart.rshah.org/70a5fd/DevrajBijpuria" alt="Contribution calendar"/>
+
 </div>
 
 ---
