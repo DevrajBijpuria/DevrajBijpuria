@@ -179,12 +179,21 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=DevrajBijpuria&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="GitHub stats"/>
-  <img height="170" src="https://streak-stats.demolab.com?user=DevrajBijpuria&theme=tokyonight&hide_border=true&background=1a1b27" alt="GitHub streak"/>
+
+  <a href="https://github.com/DevrajBijpuria">
+    <img width="95%" src="https://github-profile-trophy.vercel.app/?username=DevrajBijpuria&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub trophies"/>
+  </a>
+
   <br/><br/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevrajBijpuria&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Top languages"/>
+
+  <a href="https://github.com/DevrajBijpuria">
+    <img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=DevrajBijpuria&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  </a>
+
   <br/><br/>
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevrajBijpuria&theme=tokyo-night&hide_border=true&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=c0caf5" alt="Contribution graph"/>
+
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevrajBijpuria&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph"/>
+
 </div>
 
 ---
