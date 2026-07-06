@@ -181,13 +181,25 @@
 <div align="center">
 
   <a href="https://github.com/DevrajBijpuria">
-    <img width="95%" src="https://github-profile-trophy.vercel.app/?username=DevrajBijpuria&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub trophies"/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DevrajBijpuria&theme=tokyonight" alt="Profile details"/>
   </a>
 
   <br/><br/>
 
   <a href="https://github.com/DevrajBijpuria">
-    <img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=DevrajBijpuria&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DevrajBijpuria&theme=tokyonight" alt="GitHub stats"/>
+  </a>
+  <a href="https://github.com/DevrajBijpuria">
+    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DevrajBijpuria&theme=tokyonight&utcOffset=5.5" alt="Productive time"/>
+  </a>
+
+  <br/><br/>
+
+  <a href="https://github.com/DevrajBijpuria">
+    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DevrajBijpuria&theme=tokyonight" alt="Repos per language"/>
+  </a>
+  <a href="https://github.com/DevrajBijpuria">
+    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DevrajBijpuria&theme=tokyonight" alt="Most commit language"/>
   </a>
 
   <br/><br/>
