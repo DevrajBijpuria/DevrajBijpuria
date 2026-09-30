@@ -1,223 +1,205 @@
- <div align="center">
+<!--
+  Profile README for github.com/DevrajBijpuria
+  Visual language borrowed from portfoliodevraj.vercel.app:
+  landing type lines → CRT desktop → engineering pinboard.
+  Every SVG in /assets is generated; edit build.py and re-run rather than hand-editing.
+-->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b27,100:24283b&height=180&section=header&text=Devraj%20Bijpuria&fontSize=48&fontColor=c0caf5&animation=fadeIn&fontAlignY=45&desc=DATA%20ENGINEERING%20%2F%20AI%20%2F%20REAL-TIME%20SYSTEMS&descAlignY=70&descSize=14" width="100%"/>
+<p align="center">
+  <a href="#about"><img src="assets/line-name.svg" width="100%" alt="DEVRAJ BIJPURIA"></a>
+  <a href="#skill-sets"><img src="assets/line-skills.svg" width="100%" alt="SKILL SETS"></a>
+  <a href="#projects"><img src="assets/line-projects.svg" width="100%" alt="PROJECTSSSS"></a>
+  <a href="#contact"><img src="assets/line-contact.svg" width="100%" alt="CONTACT"></a>
+</p>
 
-<a href="https://readme-typing-svg.demolab.com">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=650&lines=Building+reliable+data+pipelines;Turning+raw+data+into+useful+insights;Exploring+real-time+systems+%26+AI;Python+%7C+SQL+%7C+Kafka+%7C+Snowflake" alt="Typing animation"/>
-</a>
+<p align="center"><sub>Select a line to open its section, same as on <a href="https://portfoliodevraj.vercel.app/">the site</a>.</sub></p>
 
-<br/>
+<a name="about"></a>
 
-<a href="https://portfoliodevraj.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-1a1b27?style=for-the-badge&logo=vercel&logoColor=7aa2f7"/></a> <a href="https://www.linkedin.com/in/devraj-bijpuria"><img src="https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=7aa2f7"/></a> <a href="mailto:dbijpuria@gmail.com"><img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=7aa2f7"/></a> <a href="https://github.com/DevrajBijpuria"><img src="https://img.shields.io/badge/GitHub-1a1b27?style=for-the-badge&logo=github&logoColor=c0caf5"/></a>
+<img src="assets/about.svg" width="100%" alt="About: Devraj Bijpuria, Computer Science student at VIT Bhopal (class of 2027) building data pipelines, AWS and Snowflake systems and analytics. AWS Certified Cloud Practitioner, Oracle Generative AI Professional, Microsoft SC-900.">
 
-<img src="https://komarev.com/ghpvc/?username=DevrajBijpuria&style=flat-square&color=7aa2f7&label=PROFILE+VIEWS" alt="Profile views"/>
+<br>
 
-</div>
+<a name="skill-sets"></a>
 
----
+<img src="assets/line-skills.svg" width="100%" alt="SKILL SETS">
+<img src="assets/skills.svg" width="100%" alt="Six skill folders on a CRT desktop">
 
-## `01` / About Me
+<details>
+<summary>📁 <code>programming</code></summary>
+<br>
+Python, SQL, C++, PySpark
+</details>
 
-```python
-devraj = {
-    "education": "B.Tech Computer Science @ VIT",
-    "graduation": 2027,
-    "focus": ["Data Engineering", "AI", "Real-Time Systems"],
-    "currently_building": [
-        "ETL / ELT pipelines",
-        "Change Data Capture systems",
-        "AI-powered analytics"
-    ],
-    "toolkit": ["Python", "SQL", "Kafka", "Snowflake", "Airflow"],
-    "interests": ["Distributed Systems", "Data Platforms", "Robotics"]
-}
+<details>
+<summary>📁 <code>data_engineering</code></summary>
+<br>
+ETL/ELT pipelines, data ingestion and transformation, Change Data Capture (CDC), SCD Type 1 and 2, Apache Airflow, Kafka, dbt, Apache NiFi, Docker
+</details>
+
+<details>
+<summary>📁 <code>cloud_aws</code></summary>
+<br>
+Amazon S3, AWS Lambda, AWS Glue, Amazon Athena, Amazon CloudWatch, EC2, Oracle Cloud Infrastructure (OCI)
+</details>
+
+<details>
+<summary>📁 <code>databases</code></summary>
+<br>
+Snowflake (Snowpipe, Streams, Tasks), PostgreSQL, data warehousing, data modeling, relational database design, window functions
+</details>
+
+<details>
+<summary>📁 <code>analytics</code></summary>
+<br>
+pandas, NumPy, data cleaning, exploratory data analysis, statistics, data visualization, Power BI
+</details>
+
+<details>
+<summary>📁 <code>machine_learning</code></summary>
+<br>
+scikit-learn, XGBoost, tree-based models and ensembles, Isolation Forest, LLM apps with Gemini (RAG, text-to-SQL)
+</details>
+
+<br>
+
+<a name="projects"></a>
+
+<img src="assets/line-projects.svg" width="100%" alt="PROJECTSSSS">
+<a href="https://portfoliodevraj.vercel.app/"><img src="assets/board.svg" width="100%" alt="Engineering pinboard with five pinned projects"></a>
+
+<a href="https://github.com/DevrajBijpuria/Zomato-DataPiple-Ai"><img src="assets/card-zomato.svg" width="100%" alt="Zomato Data Pipeline + AI: S3 to Snowflake to dbt to Gemini to Streamlit"></a>
+
+<details>
+<summary><b>Open the notebook page</b></summary>
+<br>
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','secondaryColor':'#2a2c22','tertiaryColor':'#121110','fontFamily':'monospace'}}}%%
+flowchart LR
+  A["S3 raw"] -->|COPY INTO| B["Snowflake RAW"]
+  B --> C["dbt staging"] --> D["dbt marts"]
+  D --> E["Gemini enrichment"]
+  E -->|writes back| B
+  D --> F["Streamlit: RAG chat"]
+  D --> G["Streamlit: text-to-SQL"]
+  H(["Airflow zomato_batch, daily"]) -.orchestrates.-> A
 ```
 
-I'm a Computer Science undergraduate at **Vellore Institute of Technology**, interested in building scalable data systems and turning complex datasets into meaningful insights.
+- 4.7M+ records across 7 tables (restaurants, users, food, menus, orders, order items, reviews).
+- Incremental dbt models with data-quality tests, from typed staging views to facts, dims and `mart_*` aggregates.
+- Gemini classifies every review by sentiment, topic and key issue; text-to-SQL is locked to SELECT-only queries.
 
-I enjoy working across the data lifecycle — from ingestion and transformation to orchestration, warehousing and analytics. Alongside data engineering, I explore AI-driven applications, cybersecurity and product-oriented development.
-
-* Building batch and real-time data pipelines.
-* Exploring CDC, data modeling and cloud-based architectures.
-* Developing AI-powered applications and analytics tools.
-* Open to opportunities in **Data Engineering and related roles**.
-
-[Explore my portfolio →](https://portfoliodevraj.vercel.app/)
-
----
-
-## `02` / Featured Projects
-
-<details open>
-<summary><b>01. Zomato Data Pipeline + AI Analytics</b> · Batch ETL / Analytics</summary>
-<br/>
-
-<a href="https://github.com/DevrajBijpuria/Zomato-DataPiple-Ai">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-7aa2f7?style=for-the-badge&logo=github&logoColor=1a1b27"/>
-</a>
-
-A data engineering and analytics platform that processes **4.7M+ records across 7 data tables** and integrates AI-assisted customer review intelligence.
-
-**What I built**
-
-* Developed a batch ETL pipeline for restaurants, users, food, menus, orders, order items and reviews.
-* Created dbt staging models and analytics marts with incremental transformations and data-quality tests.
-* Orchestrated ingestion and transformation workflows with Apache Airflow, AWS S3 and Snowflake.
-* Integrated Gemini-powered review intelligence and a Streamlit interface for exploring business data.
-
-`Python` `Snowflake` `AWS S3` `dbt` `Airflow` `Gemini` `Streamlit`
-
+<img src="assets/shots/zomato.png" width="100%" alt="Text-to-SQL Streamlit app">
 </details>
+
+<a href="https://github.com/DevrajBijpuria/REAL-TIME-DATA-PIPELINE"><img src="assets/card-realtime.svg" width="100%" alt="Real-Time Data Pipeline: NiFi to S3 to Snowpipe to Snowflake Streams and Tasks"></a>
 
 <details>
-<summary><b>02. Real-Time Data Pipeline — Snowflake CDC</b> · Change Data Capture</summary>
-<br/>
+<summary><b>Open the notebook page</b></summary>
+<br>
 
-<a href="https://github.com/DevrajBijpuria/REAL-TIME-DATA-PIPELINE">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-7aa2f7?style=for-the-badge&logo=github&logoColor=1a1b27"/>
-</a>
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','secondaryColor':'#2a2c22','tertiaryColor':'#121110','fontFamily':'monospace'}}}%%
+flowchart LR
+  A["Faker CSV"] --> B["NiFi on EC2, Docker"]
+  B -->|PutS3Object| C["S3 external stage"]
+  C -->|Snowpipe| D["customer_raw"]
+  D -->|"task, SCD1"| E["customer"]
+  E -->|stream| F["change-data view"]
+  F -->|"task, SCD2"| G["customer_history"]
+```
 
-An automated data ingestion and change-tracking pipeline that moves generated records through cloud storage into Snowflake.
+- Zero manual steps once running: Snowpipe auto-ingests, two Tasks fire every minute.
+- SCD Type 1 keeps current state; SCD Type 2 keeps every change with `start_time`, `end_time` and `is_current`.
 
-**What I built**
-
-* Generated batches of 10,000 synthetic records using Python and Faker.
-* Deployed Dockerized Apache NiFi on EC2 to transfer files to Amazon S3.
-* Configured Snowpipe for automated ingestion into Snowflake staging tables.
-* Processed changes using Snowflake Streams and scheduled Tasks.
-* Implemented SCD Type 1 and Type 2 logic to manage current and historical records.
-
-`Python` `Apache NiFi` `AWS S3` `Snowflake` `Snowpipe` `Docker`
-
+<img src="assets/shots/realtime.png" width="100%" alt="Apache NiFi flow">
 </details>
+
+<a href="https://github.com/DevrajBijpuria/Data_Pipeline_pro1"><img src="assets/card-spotify.svg" width="100%" alt="Spotify AWS Pipeline: Lambda to S3 to Glue to Athena"></a>
 
 <details>
-<summary><b>03. Spotify Data Pipeline</b> · Serverless AWS ETL</summary>
-<br/>
+<summary><b>Open the notebook page</b></summary>
+<br>
 
-<a href="https://github.com/DevrajBijpuria/Data_Pipeline_pro1">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-7aa2f7?style=for-the-badge&logo=github&logoColor=1a1b27"/>
-</a>
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','secondaryColor':'#2a2c22','tertiaryColor':'#121110','fontFamily':'monospace'}}}%%
+flowchart LR
+  A(["CloudWatch, daily"]) --> B["Lambda: extract"]
+  B --> C["S3 raw JSON"]
+  C -->|object created| D["Lambda: transform"]
+  D --> E["S3 songs / albums / artists"]
+  E --> F["Glue crawler + catalog"] --> G["Athena SQL"]
+```
 
-A serverless data pipeline that extracts Spotify playlist data, transforms raw JSON and prepares structured datasets for querying and analysis.
+- Fully serverless, so an idle day costs nothing.
+- One playlist payload becomes three deduplicated tables; raw JSON is archived, never overwritten.
 
-**What I built**
-
-* Extracted up to 50 playlist items per daily run using the Spotify API and AWS Lambda.
-* Stored raw JSON data in Amazon S3.
-* Coordinated a two-function Lambda workflow using CloudWatch scheduling and S3 event triggers.
-* Cleaned, deduplicated and normalized song, album and artist datasets using Pandas.
-* Prepared transformed CSV datasets for AWS Glue and Amazon Athena.
-
-`Python` `AWS Lambda` `S3` `CloudWatch` `Glue` `Athena` `Pandas`
-
+<img src="assets/shots/spotify.jpg" width="100%" alt="Extract Lambda code">
 </details>
+
+<a href="https://github.com/NihalGeek/NNNIDS"><img src="assets/card-nnnids.svg" width="100%" alt="NNNIDS: real-time intrusion detection with automated response"></a>
 
 <details>
-<summary><b>04. NNNIDS — AI-Based Intrusion Detection</b> · Cybersecurity / AI</summary>
-<br/>
+<summary><b>Open the notebook page</b></summary>
+<br>
 
-<a href="https://github.com/NihalGeek/NNNIDS">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-7aa2f7?style=for-the-badge&logo=github&logoColor=1a1b27"/>
-</a>
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','secondaryColor':'#2a2c22','tertiaryColor':'#121110','fontFamily':'monospace'}}}%%
+flowchart LR
+  A["Scapy capture"] --> B["Features"]
+  B --> C["Signatures"] & D["Isolation Forest"] & E["Behavioral baseline"] & F["Threat intel"]
+  C & D & E & F --> G["Risk score 0-100"]
+  G --> H["Block / throttle / monitor"]
+  H --> I["Verify the fix"]
+  G -.WebSocket.-> J["React dashboard"]
+```
 
-An AI-based intrusion detection project developed as a hackathon prototype, combining multiple detection techniques to identify potentially malicious network activity.
+- Hybrid 7-stage pipeline: rules, ML anomaly detection and behavioral heuristics in one pass.
+- Blocks IPs through the OS firewall (`netsh` or `iptables`), then measures whether the block actually worked.
+- NextGen Hackathon finalist.
 
-**Project highlights**
-
-* Combines signature-based rules, Isolation Forest and behavioral heuristics.
-* Uses threat intelligence and real-time risk scoring.
-* Explores a layered approach to identifying suspicious network behavior.
-
-`Python` `Isolation Forest` `AI` `Cybersecurity` `Threat Detection`
-
+<img src="assets/shots/nnnids.png" width="100%" alt="NNNIDS dashboard">
 </details>
+
+<a href="https://github.com/DevrajBijpuria/signal-desk"><img src="assets/card-signal-desk.svg" width="100%" alt="Signal Desk: rule-scored news in an 1890s broadsheet"></a>
 
 <details>
-<summary><b>05. Signal Desk</b> · Product / Analytics</summary>
-<br/>
+<summary><b>Open the notebook page</b></summary>
+<br>
 
-<a href="https://github.com/DevrajBijpuria/signal-desk">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-7aa2f7?style=for-the-badge&logo=github&logoColor=1a1b27"/>
-</a>
-<a href="https://portfoliodevraj.vercel.app/projects/signal-desk-case-study">
-<img src="https://img.shields.io/badge/CASE%20STUDY-24283b?style=for-the-badge&logo=vercel&logoColor=c0caf5"/>
-</a>
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','secondaryColor':'#2a2c22','tertiaryColor':'#121110','fontFamily':'monospace'}}}%%
+flowchart LR
+  A(["cron, 4x a day"]) --> B["fetch, dedupe, score, tag"]
+  B --> C["Netlify Blobs"]
+  C -->|"edge-cached read"| D["/api/news"]
+  D --> E["Broadsheet front page"]
+```
 
-Signal Desk is a portfolio case study and project exploring an analytics-oriented product experience. Visit the case study for the product context, design decisions and implementation details.
+- Every story gets a legitimacy score from source tiers plus corroboration, with the reason printed next to it.
+- Page loads never touch a feed, so it runs on Netlify's free tier at zero cost.
 
-`Product Design` `Analytics` `UI/UX`
-
+<img src="assets/shots/signal-desk.png" width="100%" alt="Signal Desk front page">
 </details>
 
----
+<br>
 
-## `03` / Tech Stack
+<a name="contact"></a>
 
-<div align="center">
+<img src="assets/line-contact.svg" width="100%" alt="CONTACT">
 
-### Languages
+<p align="center">
+  <a href="mailto:dbijpuria@gmail.com"><img src="assets/btn-email.svg" width="24%" alt="Email dbijpuria@gmail.com"></a>
+  <a href="https://linkedin.com/in/devraj-bijpuria"><img src="assets/btn-linkedin.svg" width="24%" alt="LinkedIn"></a>
+  <a href="https://portfoliodevraj.vercel.app/"><img src="assets/btn-portfolio.svg" width="24%" alt="Portfolio"></a>
+  <a href="https://portfoliodevraj.vercel.app/DEVRAJ_BIJPURIA_RESUME.pdf"><img src="assets/btn-resume.svg" width="24%" alt="Download résumé"></a>
+</p>
 
-<img src="https://skillicons.dev/icons?i=python,cpp,java,js&theme=dark" />
+<details>
+<summary><code>git log --graph</code></summary>
+<br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevrajBijpuria&bg_color=000000&color=ece5d4&line=A8AEF5&point=FFFCF3&area=true&area_color=A8AEF5&hide_border=true" width="100%" alt="Contribution graph">
+</details>
 
-### Data Engineering & Cloud
-
-<img src="https://skillicons.dev/icons?i=aws,docker,kafka,postgres,mysql&theme=dark" />
-
-### Data & Analytics
-
-<img src="https://img.shields.io/badge/Snowflake-1a1b27?style=for-the-badge&logo=snowflake&logoColor=29b5e8"/>
-<img src="https://img.shields.io/badge/Apache%20Airflow-1a1b27?style=for-the-badge&logo=apacheairflow&logoColor=7aa2f7"/>
-<img src="https://img.shields.io/badge/dbt-1a1b27?style=for-the-badge&logo=dbt&logoColor=ff694b"/>
-<img src="https://img.shields.io/badge/PySpark-1a1b27?style=for-the-badge&logo=apachespark&logoColor=e25a1c"/>
-<img src="https://img.shields.io/badge/Pandas-1a1b27?style=for-the-badge&logo=pandas&logoColor=150458"/>
-<img src="https://img.shields.io/badge/Power%20BI-1a1b27?style=for-the-badge&logo=powerbi&logoColor=f2c811"/>
-
-### Tools & Frameworks
-
-<img src="https://skillicons.dev/icons?i=fastapi,flask,git,github,linux,vscode&theme=dark" />
-
-</div>
-
-**Core areas:** ETL/ELT · Data Ingestion · Data Transformation · CDC · Data Warehousing · Data Modeling · SCD Type 1 / Type 2 · SQL · Exploratory Data Analysis
-
----
-
-## `04` / Certifications & Achievements
-
-* **AWS Certified Cloud Practitioner** — Amazon, 2026
-* **Generative AI Professional** — Oracle, 2025
-* **Security, Compliance and Identity Fundamentals (SC-900)** — Microsoft, 2025
-* **NextGen Hackathon Finalist** — Developed an AI-based intrusion detection prototype.
-* **E-Cell Event Lead** — Contributed to E-Summit activities, organized an interactive speaker session and coordinated the IPL Auction.
-
----
-
-## `05` / GitHub Activity
-
-<div align="center">
-
-<a href="https://github.com/DevrajBijpuria">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DevrajBijpuria&theme=tokyonight" width="100%" alt="GitHub profile summary"/>
-</a>
-
-<img src="https://github-readme-stats.vercel.app/api?username=DevrajBijpuria&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" height="165" alt="GitHub statistics"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevrajBijpuria&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5" height="165" alt="Top languages"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevrajBijpuria&bg_color=1a1b27&color=c0caf5&line=7aa2f7&point=bb9af7&area=true&hide_border=true" width="100%" alt="Contribution graph"/>
-
-</div>
-
----
-
-<div align="center">
-
-### Let's build something meaningful.
-
-Open to connecting with developers, data engineers and teams working on interesting data and AI problems.
-
-<a href="https://portfoliodevraj.vercel.app/"><img src="https://img.shields.io/badge/Explore%20My%20Portfolio-7aa2f7?style=for-the-badge&logo=vercel&logoColor=1a1b27"/></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24283b,100:1a1b27&height=100&section=footer" width="100%"/>
-
-</div>
+<img src="assets/footer.svg" width="100%" alt="find something interesting, go down the rabbit hole, build something with it">
