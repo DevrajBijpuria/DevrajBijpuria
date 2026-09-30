@@ -1,163 +1,200 @@
-<!-- Inspired by portfoliodevraj.vercel.app: black stage, cream type, periwinkle accent, handwritten notes. No asset folder needed. -->
+<!-- ============ HEADER WAVE ============ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:24283b,100:414868&height=200&section=header&text=Devraj%20Bijpuria&fontSize=44&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=ML%20Engineering%20%E2%80%A2%20Data%20Engineering&descAlignY=55&descSize=18" width="100%"/>
 
-<a href="https://portfoliodevraj.vercel.app/">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=190&text=DEVRAJ%20BIJPURIA&fontColor=FFFCF3&fontSize=64&fontAlignY=46&desc=data%20engineering%20%E2%80%A2%20ML&descColor=A8AEF5&descSize=16&descAlignY=74&animation=fadeIn" width="100%" alt="Devraj Bijpuria">
-</a>
+<!-- ============ TYPING HEADER ============ -->
+<div align="center">
+  <a href="https://github.com/DevrajBijpuria">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=70A5FD&center=true&vCenter=true&width=600&lines=Final-year+B.Tech+CSE+%40+VIT+Bhopal+(2027);Machine+Learning+Engineer+in+the+making;Data+Engineering+%7C+Airflow+%7C+Snowflake+%7C+ETL;Federated+Learning+%7C+Deep+Learning+%7C+MLOps-curious" alt="Typing SVG" />
+  </a>
+</div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&size=16&duration=2600&pause=900&color=A8AEF5&background=00000000&center=true&vCenter=true&width=640&lines=%3E+whoami;final-year+B.Tech+CSE+%40+VIT+Bhopal+(2027);I+build+pipelines+that+run+themselves;S3+%E2%86%92+Snowflake+%E2%86%92+dbt+%E2%86%92+Airflow" alt="typing intro">
+<!-- ============ BADGE ROW ============ -->
+<div align="center">
+
+  <img src="https://komarev.com/ghpvc/?username=DevrajBijpuria&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+  <a href="https://www.linkedin.com/in/devraj-bijpuria">
+    <img src="https://img.shields.io/badge/OPEN%20TO%20WORK-ML%20%2F%20Data%20Engineering-70a5fd?style=for-the-badge&labelColor=1a1b27" alt="Open to work"/>
+  </a>
+  <img src="https://img.shields.io/badge/Oracle-Generative%20AI%20Professional-70a5fd?style=for-the-badge&labelColor=1a1b27" alt="Oracle Generative AI Professional"/>
+  <img src="https://img.shields.io/badge/Microsoft-SC--900-70a5fd?style=for-the-badge&labelColor=1a1b27" alt="Microsoft SC-900"/>
+
+  
+
+
+  <a href="https://www.linkedin.com/in/devraj-bijpuria">
+    <img src="https://img.shields.io/badge/LinkedIn-devraj--bijpuria-1a1b27?style=for-the-badge&logo=linkedin&logoColor=70a5fd" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:dbijpuria@gmail.com">
+    <img src="https://img.shields.io/badge/Email-dbijpuria%40gmail.com-1a1b27?style=for-the-badge&logo=gmail&logoColor=70a5fd" alt="Email"/>
+  </a>
+
+</div>
+
+👨‍💻 About Me
+- 🎓 Final-year B.Tech Computer Science student at VIT Bhopal — Class of 2027
+- 🎯 Actively seeking ML Engineering and Data Engineering roles
+- 🧠 I build end-to-end ML systems — from federated learning across edge nodes to real-time intrusion detection pipelines
+- 🌱 GSSoC 2024 open-source contributor — merged PRs with bug fixes, features, and docs
+- 🕹️ Game developer with Unreal Engine 5 in my spare time
+- 🏆 Led the CS Core and Gaming Society on campus; part of the eCell event team
+🚀 Featured Projects
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🌊 Federated Multi-Model Flood Detection</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Federated%20Learning-1a1b27?style=flat-square&logoColor=70a5fd"/>
+        <img src="https://img.shields.io/badge/HeteroFL-1a1b27?style=flat-square"/>
+        <img src="https://img.shields.io/badge/CNN%20%2B%20TSMixer%20%2B%20NARX-1a1b27?style=flat-square"/>
+      </p>
+      <p align="center">Privacy-preserving flood detection across heterogeneous edge nodes with tri-modal deep learning and decision-level fusion — <b>&gt;95% global model accuracy</b>.</p>
+      <p align="center"><!-- TODO: add repo link for Flood Detection --></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🛡️ NNNIDS — Intrusion Detection System</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/FastAPI-1a1b27?style=flat-square&logo=fastapi&logoColor=70a5fd"/>
+        <img src="https://img.shields.io/badge/React-1a1b27?style=flat-square&logo=react&logoColor=70a5fd"/>
+        <img src="https://img.shields.io/badge/Isolation%20Forest-1a1b27?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Docker-1a1b27?style=flat-square&logo=docker&logoColor=70a5fd"/>
+      </p>
+      <p align="center">Full-stack real-time network security platform with a 7-stage hybrid AI detection pipeline, automated OS-level response, and a WebSocket live dashboard.</p>
+      <p align="center"><!-- TODO: add repo link for NNNIDS --></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🛒 E-Commerce Recommendation Engine</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/SVM%20%2F%20KNN%20%2F%20XGBoost-1a1b27?style=flat-square"/>
+        <img src="https://img.shields.io/badge/SVD%20%2F%20NMF-1a1b27?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Grey%20Wolf%20Optimization-1a1b27?style=flat-square"/>
+      </p>
+      <p align="center">Scalable hybrid recommender tackling cold start and sparsity with dimensionality reduction and GWO hyperparameter tuning — <b>94% accuracy</b>.</p>
+      <p align="center"><!-- TODO: add repo link for E-Commerce Recommendation Engine --></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">⌚ Quantified Self Analytics</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/MetaMotion%20Sensors-1a1b27?style=flat-square"/>
+        <img src="https://img.shields.io/badge/SVM%20%2F%20RF%20%2F%20NN-1a1b27?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Arduino%20PPG-1a1b27?style=flat-square"/>
+      </p>
+      <p align="center">Real-time exercise classification and rep counting from wearable sensors (<b>&gt;95% accuracy, &lt;2s latency</b>) plus an embedded PPG pulse tracker with HRV analysis.</p>
+      <p align="center"><!-- TODO: add repo link for Quantified Self Analytics --></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🔒 CyberShield — AI Safe-Browse Extension</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Chrome%20APIs-1a1b27?style=flat-square&logo=googlechrome&logoColor=70a5fd"/>
+        <img src="https://img.shields.io/badge/JavaScript-1a1b27?style=flat-square&logo=javascript&logoColor=70a5fd"/>
+        <img src="https://img.shields.io/badge/Flask-1a1b27?style=flat-square&logo=flask&logoColor=70a5fd"/>
+      </p>
+      <p align="center">Real-time browser security tool with DOM keyword blocking for anomaly and malicious content filtering, popup UI, and a Flask backend.</p>
+      <p align="center"><!-- TODO: add repo link for CyberShield --></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🎮 Warehouse Wreckage</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Unreal%20Engine%205-1a1b27?style=flat-square&logo=unrealengine&logoColor=70a5fd"/>
+        <img src="https://img.shields.io/badge/Physics%20Simulation-1a1b27?style=flat-square"/>
+      </p>
+      <p align="center">Physics-based barrel-knockdown game with timed reload mechanics, optimized UI and performance in Unreal Engine 5.</p>
+      <p align="center"><!-- TODO: add repo link for Warehouse Wreckage --></p>
+    </td>
+  </tr>
+</table>
+
+📜 Certifications
+Certification	Issuer	Date
+Generative AI Professional	Oracle	Jul 2025
+SC-900: Security, Compliance & Identity Fundamentals	Microsoft	Jun 2025
+Data Engineering Track — SQL, Database Design, Data Warehousing, Snowflake, ETL/ELT in Python	DataCamp	—
+Machine Learning Scientist with Python — scikit-learn, XGBoost, Tree-Based Models, Ensembles	DataCamp	—
+Data Analyst with Python — pandas, Data Cleaning, Visualization, APIs	DataCamp	—
+
+
+🛠️ Tech Stack
+Languages
+<p>
+  <img src="https://img.shields.io/badge/Python-1a1b27?style=for-the-badge&logo=python&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-1a1b27?style=for-the-badge&logo=cplusplus&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/Java-1a1b27?style=for-the-badge&logo=openjdk&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/JavaScript-1a1b27?style=for-the-badge&logo=javascript&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/SQL-1a1b27?style=for-the-badge&logo=mysql&logoColor=70a5fd"/>
 </p>
 
-<p align="center">
-  <a href="#about"><code>about</code></a>&nbsp;&nbsp;
-  <a href="#skill-sets"><code>skill sets</code></a>&nbsp;&nbsp;
-  <a href="#projects"><code>projectssss</code></a>&nbsp;&nbsp;
-  <a href="#contact"><code>contact</code></a>
+Machine Learning & AI
+<p>
+  <img src="https://img.shields.io/badge/scikit--learn-1a1b27?style=for-the-badge&logo=scikitlearn&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/XGBoost-1a1b27?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/pandas-1a1b27?style=for-the-badge&logo=pandas&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/CNNs%20%2F%20Deep%20Learning-1a1b27?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Federated%20Learning-1a1b27?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/NLP-1a1b27?style=for-the-badge"/>
 </p>
 
-<br>
-
-## about
-
-```text
-sys/about ─────────────────────────────────────────────────────────────
-  Devraj Bijpuria · Computer Science @ VIT Bhopal · class of 2027
-
-  I got into data engineering after wondering what actually happens to
-  data before it reaches an ML model. That rabbit hole led me into
-  pipelines, AWS, Snowflake, ETL/ELT, real-time systems and analytics.
-
-  verified
-  ✦ AWS Certified Cloud Practitioner ............ Amazon     Aug 2026
-  ✦ Generative AI Professional .................. Oracle     Jul 2025
-  ✦ SC-900 Security, Compliance & Identity ...... Microsoft  Jun 2025
-────────────────────────────────────────────────────────────────────────
-```
-
-## skill sets
-
-<details open>
-<summary>📁 <code>data_engineering</code></summary>
-<br>
-<img src="https://img.shields.io/badge/Airflow-171614?style=flat-square&logo=apacheairflow&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/dbt-171614?style=flat-square&logo=dbt&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/Kafka-171614?style=flat-square&logo=apachekafka&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/PySpark-171614?style=flat-square&logo=apachespark&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/NiFi-171614?style=flat-square&logo=apache&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/Docker-171614?style=flat-square&logo=docker&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/CDC%20%2F%20SCD%201%262-171614?style=flat-square">
-</details>
-
-<details>
-<summary>📁 <code>cloud_and_warehouse</code></summary>
-<br>
-<img src="https://img.shields.io/badge/Snowflake-171614?style=flat-square&logo=snowflake&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/S3-171614?style=flat-square&logo=amazons3&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/Lambda-171614?style=flat-square&logo=awslambda&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/Glue%20%2B%20Athena-171614?style=flat-square&logo=amazonwebservices&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/PostgreSQL-171614?style=flat-square&logo=postgresql&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/OCI-171614?style=flat-square&logo=oracle&logoColor=A8AEF5">
-</details>
-
-<details>
-<summary>📁 <code>code_and_analysis</code></summary>
-<br>
-<img src="https://img.shields.io/badge/Python-171614?style=flat-square&logo=python&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/SQL-171614?style=flat-square&logo=postgresql&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/C%2B%2B-171614?style=flat-square&logo=cplusplus&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/pandas-171614?style=flat-square&logo=pandas&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/scikit--learn-171614?style=flat-square&logo=scikitlearn&logoColor=A8AEF5">
-<img src="https://img.shields.io/badge/Power%20BI-171614?style=flat-square&logo=powerbi&logoColor=A8AEF5">
-</details>
-
-## projects
-
-> *pinned to the board — click a name to open the repo, the arrow to open its page*
-
-### [Zomato Data Pipeline + AI](https://github.com/DevrajBijpuria/Zomato-DataPiple-Ai)
-`S3 → Snowflake → dbt → Gemini → Streamlit` &nbsp; *— 4.7M+ records, text-to-SQL that only ever SELECTs*
-
-<details>
-<summary>open the notebook page</summary>
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','fontFamily':'monospace'}}}%%
-flowchart LR
-  A["S3 raw"] --> B["Snowflake RAW"] --> C["dbt staging → marts"]
-  C --> D["Gemini review enrichment"] --> E["Streamlit: RAG + text-to-SQL"]
-  F(["Airflow, daily"]) -.-> A
-```
-7 source tables, incremental dbt models with data-quality tests, Gemini tags every review by sentiment, topic and key issue.
-</details>
-
-### [Real-Time Data Pipeline](https://github.com/DevrajBijpuria/REAL-TIME-DATA-PIPELINE)
-`NiFi → S3 → Snowpipe → Streams + Tasks` &nbsp; *— runs itself once started*
-
-<details>
-<summary>open the notebook page</summary>
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','fontFamily':'monospace'}}}%%
-flowchart LR
-  A["Faker CSV"] --> B["NiFi on EC2"] --> C["S3"] -->|Snowpipe| D["customer_raw"]
-  D -->|"task · SCD1"| E["customer"] -->|stream| F["task · SCD2"] --> G["customer_history"]
-```
-10k records per batch, Tasks every minute, full change history with `start_time`, `end_time`, `is_current`.
-</details>
-
-### [Spotify AWS Pipeline](https://github.com/DevrajBijpuria/Data_Pipeline_pro1)
-`Lambda → S3 → Glue → Athena` &nbsp; *— no servers anywhere, costs nothing when idle*
-
-<details>
-<summary>open the notebook page</summary>
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','fontFamily':'monospace'}}}%%
-flowchart LR
-  A(["CloudWatch, daily"]) --> B["Lambda: extract"] --> C["S3 raw JSON"]
-  C -->|object created| D["Lambda: transform"] --> E["songs / albums / artists"] --> F["Glue → Athena"]
-```
-One playlist payload in, three deduplicated tables out; raw JSON archived, never overwritten.
-</details>
-
-### [NNNIDS](https://github.com/NihalGeek/NNNIDS)
-`detect → respond → verify the fix` &nbsp; *— NextGen Hackathon finalist*
-
-<details>
-<summary>open the notebook page</summary>
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','fontFamily':'monospace'}}}%%
-flowchart LR
-  A["Scapy capture"] --> B["signatures + Isolation Forest + behaviour + threat intel"]
-  B --> C["risk score 0-100"] --> D["block / throttle"] --> E["verify it worked"]
-  C -.WebSocket.-> F["React dashboard"]
-```
-7-stage hybrid detection, OS-firewall response through `netsh` / `iptables`, live dashboard.
-</details>
-
-### [Signal Desk](https://github.com/DevrajBijpuria/signal-desk)
-`rule-scored news in an 1890s broadsheet` &nbsp; *— no model in the loop, ₹0 to run*
-
-<details>
-<summary>open the notebook page</summary>
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','fontFamily':'monospace'}}}%%
-flowchart LR
-  A(["cron, 4x a day"]) --> B["fetch · dedupe · score · tag"] --> C["Netlify Blobs"] --> D["/api/news"] --> E["broadsheet"]
-```
-Legitimacy score from source tiers plus corroboration, with the reason printed on every story.
-</details>
-
-## contact
-
-<a href="mailto:dbijpuria@gmail.com"><img src="https://img.shields.io/badge/email-dbijpuria%40gmail.com-000000?style=for-the-badge&labelColor=171614&color=000000&logo=gmail&logoColor=A8AEF5"></a>
-<a href="https://linkedin.com/in/devraj-bijpuria"><img src="https://img.shields.io/badge/linkedin-devraj--bijpuria-000000?style=for-the-badge&labelColor=171614&logo=linkedin&logoColor=A8AEF5"></a>
-<a href="https://portfoliodevraj.vercel.app/"><img src="https://img.shields.io/badge/portfolio-the%20full%20board%20%E2%86%97-000000?style=for-the-badge&labelColor=171614&logo=vercel&logoColor=A8AEF5"></a>
-
-<br><br>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=28&duration=3500&pause=2500&color=ECE5D4&background=000000&center=true&vCenter=true&width=900&height=70&lines=find+something+interesting+%E2%86%92+go+down+the+rabbit+hole+%E2%86%92+build+something+with+it" alt="find something interesting, go down the rabbit hole, build something with it">
+Data Engineering
+<p>
+  <img src="https://img.shields.io/badge/Apache%20Airflow-1a1b27?style=for-the-badge&logo=apacheairflow&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/Snowflake-1a1b27?style=for-the-badge&logo=snowflake&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/ETL%20%2F%20ELT%20Pipelines-1a1b27?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MySQL-1a1b27?style=for-the-badge&logo=mysql&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/SQLite-1a1b27?style=for-the-badge&logo=sqlite&logoColor=70a5fd"/>
 </p>
+
+Backend & Tools
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-1a1b27?style=for-the-badge&logo=fastapi&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/Flask-1a1b27?style=for-the-badge&logo=flask&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/REST%20APIs-1a1b27?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Docker-1a1b27?style=for-the-badge&logo=docker&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/Git-1a1b27?style=for-the-badge&logo=git&logoColor=70a5fd"/>
+</p>
+
+Cloud & Game Dev
+<p>
+  <img src="https://img.shields.io/badge/AWS-1a1b27?style=for-the-badge&logo=amazonwebservices&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-1a1b27?style=for-the-badge&logo=googlecloud&logoColor=70a5fd"/>
+  <img src="https://img.shields.io/badge/Oracle%20Cloud%20(OCI)-1a1b27?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Unreal%20Engine%205-1a1b27?style=for-the-badge&logo=unrealengine&logoColor=70a5fd"/>
+</p>
+
+📊 GitHub Stats
+<div align="center">
+
+  <a href="https://github.com/DevrajBijpuria">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DevrajBijpuria&theme=tokyonight" alt="Profile details"/>
+  </a>
+
+  
+
+
+  <a href="https://github.com/DevrajBijpuria">
+    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DevrajBijpuria&theme=tokyonight" alt="GitHub stats"/>
+  </a>
+  <a href="https://github.com/DevrajBijpuria">
+    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DevrajBijpuria&theme=tokyonight&utcOffset=5.5" alt="Productive time"/>
+  </a>
+
+  
+
+
+  <a href="https://github.com/DevrajBijpuria">
+    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DevrajBijpuria&theme=tokyonight" alt="Repos per language"/>
+  </a>
+  <a href="https://github.com/DevrajBijpuria">
+    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DevrajBijpuria&theme=tokyonight" alt="Most commit language"/>
+  </a>
+
+  
+
+
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevrajBijpuria&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph"/>
+
+</div>
+
+<!-- ============ FOOTER WAVE ============ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:414868,50:24283b,100:1a1b27&height=140&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=c0caf5&fontAlignY=75" width="100%"/>
