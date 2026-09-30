@@ -1,102 +1,163 @@
-<!-- Profile README for github.com/DevrajBijpuria Visual language borrowed from portfoliodevraj.vercel.app: landing type lines → CRT desktop → engineering pinboard. Every SVG in /assets is generated; edit build.py and re-run rather than hand-editing. --> <p align="center"> <a href="#about"><img src="assets/line-name.svg" width="100%" alt="DEVRAJ BIJPURIA"></a> <a href="#skill-sets"><img src="assets/line-skills.svg" width="100%" alt="SKILL SETS"></a> <a href="#projects"><img src="assets/line-projects.svg" width="100%" alt="PROJECTSSSS"></a> <a href="#contact"><img src="assets/line-contact.svg" width="100%" alt="CONTACT"></a> </p> <p align="center"><sub>Select a line to open its section, same as on <a href="https://portfoliodevraj.vercel.app/">the site</a>.</sub></p>
+<!-- Inspired by portfoliodevraj.vercel.app: black stage, cream type, periwinkle accent, handwritten notes. No asset folder needed. -->
 
-<a name="about"></a>
+<a href="https://portfoliodevraj.vercel.app/">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=190&text=DEVRAJ%20BIJPURIA&fontColor=FFFCF3&fontSize=64&fontAlignY=46&desc=data%20engineering%20%E2%80%A2%20ML&descColor=A8AEF5&descSize=16&descAlignY=74&animation=fadeIn" width="100%" alt="Devraj Bijpuria">
+</a>
 
-<img src="assets/about.svg" width="100%" alt="About: Devraj Bijpuria, Computer Science student at VIT Bhopal (class of 2027) building data pipelines, AWS and Snowflake systems and analytics. AWS Certified Cloud Practitioner, Oracle Generative AI Professional, Microsoft SC-900."> <br>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&size=16&duration=2600&pause=900&color=A8AEF5&background=00000000&center=true&vCenter=true&width=640&lines=%3E+whoami;final-year+B.Tech+CSE+%40+VIT+Bhopal+(2027);I+build+pipelines+that+run+themselves;S3+%E2%86%92+Snowflake+%E2%86%92+dbt+%E2%86%92+Airflow" alt="typing intro">
+</p>
 
-<a name="skill-sets"></a>
+<p align="center">
+  <a href="#about"><code>about</code></a>&nbsp;&nbsp;
+  <a href="#skill-sets"><code>skill sets</code></a>&nbsp;&nbsp;
+  <a href="#projects"><code>projectssss</code></a>&nbsp;&nbsp;
+  <a href="#contact"><code>contact</code></a>
+</p>
 
-<img src="assets/line-skills.svg" width="100%" alt="SKILL SETS"> <img src="assets/skills.svg" width="100%" alt="Six skill folders on a CRT desktop"> <details> <summary>📁 <code>programming</code></summary> <br> Python, SQL, C++, PySpark </details> <details> <summary>📁 <code>data_engineering</code></summary> <br> ETL/ELT pipelines, data ingestion and transformation, Change Data Capture (CDC), SCD Type 1 and 2, Apache Airflow, Kafka, dbt, Apache NiFi, Docker </details> <details> <summary>📁 <code>cloud_aws</code></summary> <br> Amazon S3, AWS Lambda, AWS Glue, Amazon Athena, Amazon CloudWatch, EC2, Oracle Cloud Infrastructure (OCI) </details> <details> <summary>📁 <code>databases</code></summary> <br> Snowflake (Snowpipe, Streams, Tasks), PostgreSQL, data warehousing, data modeling, relational database design, window functions </details> <details> <summary>📁 <code>analytics</code></summary> <br> pandas, NumPy, data cleaning, exploratory data analysis, statistics, data visualization, Power BI </details> <details> <summary>📁 <code>machine_learning</code></summary> <br> scikit-learn, XGBoost, tree-based models and ensembles, Isolation Forest, LLM apps with Gemini (RAG, text-to-SQL) </details> <br>
+<br>
 
-<a name="projects"></a>
+## about
 
-<img src="assets/line-projects.svg" width="100%" alt="PROJECTSSSS"> <a href="https://portfoliodevraj.vercel.app/"><img src="assets/board.svg" width="100%" alt="Engineering pinboard with five pinned projects"></a>
+```text
+sys/about ─────────────────────────────────────────────────────────────
+  Devraj Bijpuria · Computer Science @ VIT Bhopal · class of 2027
 
-<a href="https://github.com/DevrajBijpuria/Zomato-DataPiple-Ai"><img src="assets/card-zomato.svg" width="100%" alt="Zomato Data Pipeline + AI: S3 to Snowflake to dbt to Gemini to Streamlit"></a>
+  I got into data engineering after wondering what actually happens to
+  data before it reaches an ML model. That rabbit hole led me into
+  pipelines, AWS, Snowflake, ETL/ELT, real-time systems and analytics.
 
-<details> <summary><b>Open the notebook page</b></summary> <br>
-COPY INTO
-writes back
-orchestrates
-S3 raw
-Snowflake RAW
-dbt staging
-dbt marts
-Gemini enrichment
-Streamlit: RAG chat
-Streamlit: text-to-SQL
-Airflow zomato_batch, daily
-4.7M+ records across 7 tables (restaurants, users, food, menus, orders, order items, reviews).
-Incremental dbt models with data-quality tests, from typed staging views to facts, dims and mart_* aggregates.
-Gemini classifies every review by sentiment, topic and key issue; text-to-SQL is locked to SELECT-only queries.
-<img src="assets/shots/zomato.png" width="100%" alt="Text-to-SQL Streamlit app"> </details>
+  verified
+  ✦ AWS Certified Cloud Practitioner ............ Amazon     Aug 2026
+  ✦ Generative AI Professional .................. Oracle     Jul 2025
+  ✦ SC-900 Security, Compliance & Identity ...... Microsoft  Jun 2025
+────────────────────────────────────────────────────────────────────────
+```
 
-<a href="https://github.com/DevrajBijpuria/REAL-TIME-DATA-PIPELINE"><img src="assets/card-realtime.svg" width="100%" alt="Real-Time Data Pipeline: NiFi to S3 to Snowpipe to Snowflake Streams and Tasks"></a>
+## skill sets
 
-<details> <summary><b>Open the notebook page</b></summary> <br>
-PutS3Object
-Snowpipe
-task, SCD1
-stream
-task, SCD2
-Faker CSV
-NiFi on EC2, Docker
-S3 external stage
-customer_raw
-customer
-change-data view
-customer_history
-Zero manual steps once running: Snowpipe auto-ingests, two Tasks fire every minute.
-SCD Type 1 keeps current state; SCD Type 2 keeps every change with start_time, end_time and is_current.
-<img src="assets/shots/realtime.png" width="100%" alt="Apache NiFi flow"> </details>
+<details open>
+<summary>📁 <code>data_engineering</code></summary>
+<br>
+<img src="https://img.shields.io/badge/Airflow-171614?style=flat-square&logo=apacheairflow&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/dbt-171614?style=flat-square&logo=dbt&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/Kafka-171614?style=flat-square&logo=apachekafka&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/PySpark-171614?style=flat-square&logo=apachespark&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/NiFi-171614?style=flat-square&logo=apache&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/Docker-171614?style=flat-square&logo=docker&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/CDC%20%2F%20SCD%201%262-171614?style=flat-square">
+</details>
 
-<a href="https://github.com/DevrajBijpuria/Data_Pipeline_pro1"><img src="assets/card-spotify.svg" width="100%" alt="Spotify AWS Pipeline: Lambda to S3 to Glue to Athena"></a>
+<details>
+<summary>📁 <code>cloud_and_warehouse</code></summary>
+<br>
+<img src="https://img.shields.io/badge/Snowflake-171614?style=flat-square&logo=snowflake&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/S3-171614?style=flat-square&logo=amazons3&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/Lambda-171614?style=flat-square&logo=awslambda&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/Glue%20%2B%20Athena-171614?style=flat-square&logo=amazonwebservices&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/PostgreSQL-171614?style=flat-square&logo=postgresql&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/OCI-171614?style=flat-square&logo=oracle&logoColor=A8AEF5">
+</details>
 
-<details> <summary><b>Open the notebook page</b></summary> <br>
-object created
-CloudWatch, daily
-Lambda: extract
-S3 raw JSON
-Lambda: transform
-S3 songs / albums / artists
-Glue crawler + catalog
-Athena SQL
-Fully serverless, so an idle day costs nothing.
-One playlist payload becomes three deduplicated tables; raw JSON is archived, never overwritten.
-<img src="assets/shots/spotify.jpg" width="100%" alt="Extract Lambda code"> </details>
+<details>
+<summary>📁 <code>code_and_analysis</code></summary>
+<br>
+<img src="https://img.shields.io/badge/Python-171614?style=flat-square&logo=python&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/SQL-171614?style=flat-square&logo=postgresql&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/C%2B%2B-171614?style=flat-square&logo=cplusplus&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/pandas-171614?style=flat-square&logo=pandas&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/scikit--learn-171614?style=flat-square&logo=scikitlearn&logoColor=A8AEF5">
+<img src="https://img.shields.io/badge/Power%20BI-171614?style=flat-square&logo=powerbi&logoColor=A8AEF5">
+</details>
 
-<a href="https://github.com/NihalGeek/NNNIDS"><img src="assets/card-nnnids.svg" width="100%" alt="NNNIDS: real-time intrusion detection with automated response"></a>
+## projects
 
-<details> <summary><b>Open the notebook page</b></summary> <br>
-WebSocket
-Scapy capture
-Features
-Signatures
-Isolation Forest
-Behavioral baseline
-Threat intel
-Risk score 0-100
-Block / throttle / monitor
-Verify the fix
-React dashboard
-Hybrid 7-stage pipeline: rules, ML anomaly detection and behavioral heuristics in one pass.
-Blocks IPs through the OS firewall (netsh or iptables), then measures whether the block actually worked.
-NextGen Hackathon finalist.
-<img src="assets/shots/nnnids.png" width="100%" alt="NNNIDS dashboard"> </details>
+> *pinned to the board — click a name to open the repo, the arrow to open its page*
 
-<a href="https://github.com/DevrajBijpuria/signal-desk"><img src="assets/card-signal-desk.svg" width="100%" alt="Signal Desk: rule-scored news in an 1890s broadsheet"></a>
+### [Zomato Data Pipeline + AI](https://github.com/DevrajBijpuria/Zomato-DataPiple-Ai)
+`S3 → Snowflake → dbt → Gemini → Streamlit` &nbsp; *— 4.7M+ records, text-to-SQL that only ever SELECTs*
 
-<details> <summary><b>Open the notebook page</b></summary> <br>
-edge-cached read
-cron, 4x a day
-fetch, dedupe, score, tag
-Netlify Blobs
-/api/news
-Broadsheet front page
-Every story gets a legitimacy score from source tiers plus corroboration, with the reason printed next to it.
-Page loads never touch a feed, so it runs on Netlify's free tier at zero cost.
-<img src="assets/shots/signal-desk.png" width="100%" alt="Signal Desk front page"> </details> <br>
+<details>
+<summary>open the notebook page</summary>
 
-<a name="contact"></a>
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','fontFamily':'monospace'}}}%%
+flowchart LR
+  A["S3 raw"] --> B["Snowflake RAW"] --> C["dbt staging → marts"]
+  C --> D["Gemini review enrichment"] --> E["Streamlit: RAG + text-to-SQL"]
+  F(["Airflow, daily"]) -.-> A
+```
+7 source tables, incremental dbt models with data-quality tests, Gemini tags every review by sentiment, topic and key issue.
+</details>
 
-<img src="assets/line-contact.svg" width="100%" alt="CONTACT"> <p align="center"> <a href="mailto:dbijpuria@gmail.com"><img src="assets/btn-email.svg" width="24%" alt="Email dbijpuria@gmail.com"></a> <a href="https://linkedin.com/in/devraj-bijpuria"><img src="assets/btn-linkedin.svg" width="24%" alt="LinkedIn"></a> <a href="https://portfoliodevraj.vercel.app/"><img src="assets/btn-portfolio.svg" width="24%" alt="Portfolio"></a> <a href="https://portfoliodevraj.vercel.app/DEVRAJ_BIJPURIA_RESUME.pdf"><img src="assets/btn-resume.svg" width="24%" alt="Download résumé"></a> </p> <details> <summary><code>git log --graph</code></summary> <br> <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevrajBijpuria&bg_color=000000&color=ece5d4&line=A8AEF5&point=FFFCF3&area=true&area_color=A8AEF5&hide_border=true" width="100%" alt="Contribution graph"> </details> <img src="assets/footer.svg" width="100%" alt="find something interesting, go down the rabbit hole, build something with it">
+### [Real-Time Data Pipeline](https://github.com/DevrajBijpuria/REAL-TIME-DATA-PIPELINE)
+`NiFi → S3 → Snowpipe → Streams + Tasks` &nbsp; *— runs itself once started*
+
+<details>
+<summary>open the notebook page</summary>
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','fontFamily':'monospace'}}}%%
+flowchart LR
+  A["Faker CSV"] --> B["NiFi on EC2"] --> C["S3"] -->|Snowpipe| D["customer_raw"]
+  D -->|"task · SCD1"| E["customer"] -->|stream| F["task · SCD2"] --> G["customer_history"]
+```
+10k records per batch, Tasks every minute, full change history with `start_time`, `end_time`, `is_current`.
+</details>
+
+### [Spotify AWS Pipeline](https://github.com/DevrajBijpuria/Data_Pipeline_pro1)
+`Lambda → S3 → Glue → Athena` &nbsp; *— no servers anywhere, costs nothing when idle*
+
+<details>
+<summary>open the notebook page</summary>
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','fontFamily':'monospace'}}}%%
+flowchart LR
+  A(["CloudWatch, daily"]) --> B["Lambda: extract"] --> C["S3 raw JSON"]
+  C -->|object created| D["Lambda: transform"] --> E["songs / albums / artists"] --> F["Glue → Athena"]
+```
+One playlist payload in, three deduplicated tables out; raw JSON archived, never overwritten.
+</details>
+
+### [NNNIDS](https://github.com/NihalGeek/NNNIDS)
+`detect → respond → verify the fix` &nbsp; *— NextGen Hackathon finalist*
+
+<details>
+<summary>open the notebook page</summary>
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','fontFamily':'monospace'}}}%%
+flowchart LR
+  A["Scapy capture"] --> B["signatures + Isolation Forest + behaviour + threat intel"]
+  B --> C["risk score 0-100"] --> D["block / throttle"] --> E["verify it worked"]
+  C -.WebSocket.-> F["React dashboard"]
+```
+7-stage hybrid detection, OS-firewall response through `netsh` / `iptables`, live dashboard.
+</details>
+
+### [Signal Desk](https://github.com/DevrajBijpuria/signal-desk)
+`rule-scored news in an 1890s broadsheet` &nbsp; *— no model in the loop, ₹0 to run*
+
+<details>
+<summary>open the notebook page</summary>
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171614','primaryTextColor':'#ece5d4','primaryBorderColor':'#A8AEF5','lineColor':'#B8B1A5','fontFamily':'monospace'}}}%%
+flowchart LR
+  A(["cron, 4x a day"]) --> B["fetch · dedupe · score · tag"] --> C["Netlify Blobs"] --> D["/api/news"] --> E["broadsheet"]
+```
+Legitimacy score from source tiers plus corroboration, with the reason printed on every story.
+</details>
+
+## contact
+
+<a href="mailto:dbijpuria@gmail.com"><img src="https://img.shields.io/badge/email-dbijpuria%40gmail.com-000000?style=for-the-badge&labelColor=171614&color=000000&logo=gmail&logoColor=A8AEF5"></a>
+<a href="https://linkedin.com/in/devraj-bijpuria"><img src="https://img.shields.io/badge/linkedin-devraj--bijpuria-000000?style=for-the-badge&labelColor=171614&logo=linkedin&logoColor=A8AEF5"></a>
+<a href="https://portfoliodevraj.vercel.app/"><img src="https://img.shields.io/badge/portfolio-the%20full%20board%20%E2%86%97-000000?style=for-the-badge&labelColor=171614&logo=vercel&logoColor=A8AEF5"></a>
+
+<br><br>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=28&duration=3500&pause=2500&color=ECE5D4&background=000000&center=true&vCenter=true&width=900&height=70&lines=find+something+interesting+%E2%86%92+go+down+the+rabbit+hole+%E2%86%92+build+something+with+it" alt="find something interesting, go down the rabbit hole, build something with it">
+</p>
